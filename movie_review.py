@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 20 16:14:01 2023
-
-@author: admin
-"""
 
 
 import requests
@@ -52,12 +47,8 @@ def get_movies(url):
 
 movie_df = get_movies('https://editorial.rottentomatoes.com/guide/essential-comedy-movies/')
 
-movie_df.to_csv('/Users/admin/Documents/Mrunmayee/BigData/movie_reviews.csv', index=False)
+movie_df.to_csv('movie_reviews.csv', index=False)
 
-
-#with open('/Users/admin/Documents/Mrunmayee/BigData/movie_reviews.pkl', 'wb') as fp:
-#    pickle.dump(comedy_movies, fp)
-#    print('dictionary saved successfully to file')
 
 
 
