@@ -1,6 +1,8 @@
 # Web Scraping Movie Review
 In this project, the text and ratings of movie reviews was scraped from **Rotten Tomato**.
 
+**Libraries: BeautifulSoup (bs4), html5lib**
+
 ## Implementation:
 
 1. First, in order to get a list of movies to get reviews, the 'essential-comedy-movies' list shared in editorial of rotten tomato was used.
